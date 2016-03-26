@@ -366,3 +366,84 @@ footer{
 	padding-top: 8%;
 	padding-bottom: 8%;
 }
+
+
+/*IMAGES COLLAGE*/
+
+.picture-display{
+	height: 100vh;
+	background-color: #EBEBEB;
+	position: fixed;
+}
+
+.picture-collage li{
+	display: inline;
+}
+
+.picture-collage h2{
+	font-family: "Montserrat", sans-serif;
+	margin-bottom: 40px;
+	letter-spacing: 5px;
+	font-size: 50px;
+
+}
+
+
+.picture-collage{
+	padding-right: 0;
+	padding-left: 35px;
+	float: right!important;
+}
+
+.picture-collage ul{
+	padding-left: 0;
+}
+
+.picture-collage img{
+	width: 240px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+.the-team{
+	text-align: center;
+	background-color: white;
+	font-family: "Montserrat",sans-serif;
+}
+
+.the-team h2{
+	margin-top: 0px;
+	padding-top: 120px;
+	padding-bottom: 50px;
+	font-weight: bold;
+	letter-spacing: 5px;
+}
+
+.the-team h3{
+	font-weight: bold;
+	letter-spacing: 5px;
+	padding-top: 20px;
+}
+
+.the-team p{
+	margin-bottom: 50px;
+}
+
+.person-pic{
+	background-color: black;
+	height: 300px;
+}
+
+.about-them p{
+	text-align: left;
+	padding-right: 10px;
+	font-family:"Merriweather",serif; 
+}
+
+.about-them h3{
+	text-align: left;
+}
+
+.the-team > .row{
+	margin-bottom: 40px;
+}
