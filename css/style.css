@@ -117,13 +117,17 @@ section{
 
 #landscape{
 	background: url('../images/landscape.jpg') no-repeat center;
-	background-size: 100%;
+	background-size: 120%;
 	transition: all 0.2s ease-in;
 }
 
 
 #products:hover, #event:hover, #studio:hover, #wedding:hover, #workshop:hover, #landscape:hover{
 	background-size: 112%;
+}
+
+#landscape:hover{
+	background-size: 132%;
 }
 
 #what h3{
@@ -140,7 +144,7 @@ section{
 	font-weight: bold;
 	font-family: "Montserrat", sans-serif;
 	letter-spacing: 5px;
-}
+} 
 
 #what h2{
 	font-weight: bold;
