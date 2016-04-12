@@ -8,12 +8,17 @@ header{
 	background-image: url("header.jpg");
 	height: 100vh;
 	margin: 0 auto;
+	background-position-y:30%;
 }
 
 header h3{
 	font-family: "Montserrat", sans-serif;
 	text-align: center;
 	color: white;
+	font-weight: bold;
+	font-size: 35px;
+	letter-spacing: 35px;
+	line-height: 17;
 }
 
 header img{
@@ -21,6 +26,7 @@ header img{
 	margin: 100px auto;
 	display: block;
 	margin-bottom: 0px;
+
 }
 
 nav {
@@ -98,6 +104,7 @@ section{
 	background: url('../images/studio.jpg') no-repeat center;
 	background-size: 100%;
 	transition: all 0.2s ease-in;
+	background-position-y:10%;
 }
 
 
@@ -137,6 +144,7 @@ section{
 	line-height: 10;
 	margin-top: 0px;
 	margin-bottom: 0px;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.59);
 
 }
 
@@ -838,4 +846,15 @@ html { height: 100%;}
 
 .nav>li>a:focus, .nav>li>a:hover{
 	background-color: transparent;
+}
+
+
+.all-photo{
+	text-align: center;
+	font-family: "Montserrat",sans-serif;
+}
+
+.all-photo h2{
+	font-weight: bold;
+	letter-spacing: 10px;
 }
