@@ -12,6 +12,7 @@
   <script src="js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <script type="text/javascript" src="js/jquery.flexisel.js"></script>
+  <script type="text/javascript" src="js/text-slider.js"></script>
   <script type="text/javascript" src="js/flickity.min.js"></script>
   <link rel="stylesheet" type="text/css" href="css/flickity.css">
 
@@ -170,15 +171,40 @@
 	</div>
 </section>
 
-<section id="testimonials">
+<section id="testimonial">
 	<div class="container">
 		<h2>TESTIMONIALS</h2>
-		<h3>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat."</h3>
-		<p>Johanas Doe</p>
-		<p class="white">Festember, Head.</p>
+		<div class="slide">
+			<div class="slider-item quote">
+			<h3 class="paragraph">
+				Pixelbug is a club of like-minded, dedicated and a high caliber group of photographers. The club has helped me in boosting my self confidence and skills to a whole new level. At Pixelbug, you are always a learner, and you get to be a part of a club where the members are open minded, helpful and always ready to share ideas. Being a part of this club is a major memory of my journey at NITT.
+
+			</h3>
+			<p class="white">
+				Shyam Purushan.	
+			</p>
+			</div>
+			<div class="slider-item quote">
+			<h3 class="paragraph">
+				It was a great experience starting the club from it's seed. Sowed the seeds along with Pranav and it has reached great heights now.
+
+			</h3>
+			<p class="white">
+				Palaniappan.
+			</p>
+			</div>
+
+		<script>
+			$('.slide').textSlider({
+
+			timeout: 5000,
+			slideTime: 750,
+			loop: 1
+
+			});
+
+		</script>
+		</div>
 	</div>
 </section>
 
