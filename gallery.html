@@ -37,6 +37,19 @@
 </head>
 <body>
 
+<div id="loading">
+<div id="loading-center">
+<div id="loading-center-absolute">
+<div class="object" id="object_four"></div>
+<div class="object" id="object_three"></div>
+<div class="object" id="object_two"></div>
+<div class="object" id="object_one"></div>
+
+</div>
+</div>
+ 
+</div>
+
 <!-- <nav class="navbar navbar-default" data-spy="affix" data-offset-top="786">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -141,6 +154,12 @@
 </div>
 
 <script>
+$(window).load(function() {
+  $("#loading").fadeOut(500);
+  
+});
+
+
 	$(document).ready(function () {
   var trigger = $('.hamburger'),
       overlay = $('.overlay'),
