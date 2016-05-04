@@ -1050,3 +1050,13 @@ html { height: 100%;}
 .ts-testimonial-slide .ts-testimonial-item  .client-position a:hover{
 	color: #5ed9e7;
 }
+
+
+@media screen and (max-width: 980px){
+
+	header h3{
+		letter-spacing: 17px;
+	}
+
+
+}
